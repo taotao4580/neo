@@ -5,7 +5,7 @@ namespace Neo.Consensus
 {
     internal class ChangeView : ConsensusMessage
     {
-        public byte NewViewNumber;
+        public byte NewViewNumber1;
 
         public ChangeView()
             : base(ConsensusMessageType.ChangeView)
